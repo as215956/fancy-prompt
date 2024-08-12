@@ -280,7 +280,8 @@ bash_prompt() {
     ############################################################################
     case $TERM in
         xterm*|rxvt*)
-            local TITLEBAR='\[\033]0;\u@$(hostname -f):${NEW_PWD}\007\]'
+            #local TITLEBAR='\[\033]0;\u@$(hostname -f):${NEW_PWD}\007\]'
+            local TITLEBAR='\[\033]0;\u@$(hostnamectl hostname --static):${NEW_PWD}\007\]'
         ;;
         *)
             local TITLEBAR=""
