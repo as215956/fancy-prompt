@@ -157,13 +157,13 @@ bash_prompt() {
     ## CONFIGURATION: Core Routers
     if [[ "$HOSTNAME" =~ "cr" ]]; then
         FONT_COLOR_2=$D_GRAY; BACKGROUND_2=$YELLOW; TEXTEFFECT_2=$BOLD
-        PROMT_FORMAT=$CYAN_BOLD
+        PROMT_FORMAT=$WHITE_BOLD
     fi
     
     ## CONFIGURATION: Edge Routers
     if [[ "$HOSTNAME" =~ "er" ]]; then
         FONT_COLOR_2=$D_GRAY; BACKGROUND_2=$L_YELLOW; TEXTEFFECT_2=$BOLD
-        PROMT_FORMAT=$CYAN_BOLD
+        PROMT_FORMAT=$WHITE_BOLD
     fi
     
     ## CONFIGURATION: BLACK-RED
