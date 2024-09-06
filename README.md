@@ -28,7 +28,7 @@ source /opt/fancy-prompt/fancy-prompt.sh
 
 ### Putty not showing symbols
 Try using a nerdfont if you don't use it already.
-If you are using a nerdfont try using 'FireCode Nerd Font Mono', else see other solutions
+If you are using a nerdfont try using 'FiraCode Nerd Font Mono', else see other solutions
 
 ### Layout not working
 It could be that your locales on the server isn't installed or working.
