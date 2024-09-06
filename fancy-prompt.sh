@@ -167,7 +167,7 @@ bash_prompt() {
     fi
 
     ## CONFIGURATION: IX Routers
-    if [[ "$HOSTNAME" =~ "er" ]]; then
+    if [[ "$HOSTNAME" =~ "ix" ]]; then
         FONT_COLOR_2=$WHITE; BACKGROUND_2=$GREEN; TEXTEFFECT_2=$BOLD
         PROMT_FORMAT=$WHITE_BOLD
     fi
